@@ -13,6 +13,4 @@ public interface GetAvailableItemInterator {
     void run();
     void notifyWhenLoadListItemFail();
     void notifyWhenLoadListItemSuccessful(ArrayList<ShopItem> shopItems);
-
-
 }

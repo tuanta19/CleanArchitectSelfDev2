@@ -40,6 +40,7 @@ public class ShopItemPresenter implements ShopItemContract.Presenter, GetAvailab
     @Override
     public void getAllAvailableItem() {
         mGetAvailableItemInteractor=new GetAvailableItemInteractorImpl(mMainThread, mShopRepository, this);
+        mGetAvailableItemInteractor.run();
 
     }
 
